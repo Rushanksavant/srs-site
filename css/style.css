@@ -2086,3 +2086,16 @@ h5,
     brightness(91%) contrast(102%);
   margin-right: 3px;
 }
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-left: 0;
+}
