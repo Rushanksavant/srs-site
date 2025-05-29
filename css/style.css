@@ -2123,17 +2123,17 @@ h5,
     brightness(107%) contrast(97%);
 }
 
-.arrows {
+.sarrows {
   width: 60px;
   height: 72px;
   position: absolute;
   bottom: 0;
   left: 50%;
   margin-left: -30px;
-  bottom: 20px;
+  bottom: 50px;
 }
 
-.arrows path {
+.sarrows path {
   stroke: #00a8b5;
   fill: transparent;
   stroke-width: 1px;
@@ -2171,17 +2171,17 @@ h5,
   }
 }
 
-.arrows path.a1 {
+.sarrows path.a1 {
   animation-delay: -1s;
   -webkit-animation-delay: -1s; /* Safari 和 Chrome */
 }
 
-.arrows path.a2 {
+.sarrows path.a2 {
   animation-delay: -0.5s;
   -webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
 }
 
-.arrows path.a3 {
+.sarrows path.a3 {
   animation-delay: 0s;
   -webkit-animation-delay: 0s; /* Safari 和 Chrome */
 }
