@@ -1657,10 +1657,15 @@ h5,
 .unit-1 .unit-1-text {
   z-index: 2;
   position: absolute;
-  bottom: -90px;
+  bottom: 30px;
   color: #fff;
   display: block;
   width: 100%;
+}
+@media (min-width: 1000px) {
+  .unit-1 .unit-1-text {
+    bottom: -90px;
+  }
 }
 .unit-1 .unit-1-text .unit-1-heading {
   font-size: 1.5rem;
