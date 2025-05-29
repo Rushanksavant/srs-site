@@ -621,7 +621,7 @@ h5,
   color: #007982;
 }
 .site-navbar.scrolled .site-logo a {
-  color: #111111 !important;
+  color: #4d4d4d !important;
 }
 
 .site-mobile-menu {
@@ -2108,4 +2108,16 @@ h5,
     brightness(94%) contrast(101%);
   max-width: 3vw;
   max-height: 3vh;
+}
+
+.linkedin-svg {
+  filter: invert(100%) sepia(1%) saturate(5%) hue-rotate(2deg) brightness(103%)
+    contrast(101%);
+  max-width: 7vw;
+  max-height: 7vh;
+}
+
+.linkedin-svg:hover {
+  filter: invert(23%) sepia(96%) saturate(1371%) hue-rotate(192deg)
+    brightness(107%) contrast(97%);
 }
