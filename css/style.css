@@ -2185,3 +2185,7 @@ h5,
   animation-delay: 0s;
   -webkit-animation-delay: 0s; /* Safari 和 Chrome */
 }
+
+.nav-link:hover {
+  color: #00d7e8;
+}
