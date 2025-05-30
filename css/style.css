@@ -2130,13 +2130,13 @@ h5,
   bottom: 0;
   left: 50%;
   margin-left: -30px;
-  bottom: 50px;
+  bottom: 25%;
 }
 
 .sarrows path {
   stroke: #00a8b5;
   fill: transparent;
-  stroke-width: 1px;
+  stroke-width: 3px;
   animation: arrow 2s infinite;
   -webkit-animation: arrow 2s infinite;
 }
@@ -2188,4 +2188,26 @@ h5,
 
 .nav-link:hover {
   color: #00d7e8;
+}
+
+.scroll_signal {
+  animation: scroll 2s infinite;
+  -webkit-animation: scroll 2s infinite;
+}
+
+@-webkit-keyframes scroll /*Safari and Chrome*/ {
+  0% {
+    opacity: 0;
+    color: aliceblue;
+  }
+  50% {
+    opacity: 0.75;
+    color: #00d7e8;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
